@@ -1,12 +1,12 @@
-let nome1 = prompt("Digite o nome da pessoa 1")
-let sobrenome1 = prompt("Digite o sobrenome da pessoa 1")
-let idade1 = Number(prompt("Digite a idade da pessoa 1"))
-let nacionalidade1 = prompt("Digite o pais de origem da pessoa 1")
+let nome1 = prompt("Qual é o nome da pessoa 1?")
+let sobrenome1 = prompt("Qual é o sobrenome da pessoa 1?")
+let idade1 = Number(prompt("Qual é a idade da pessoa 1?"))
+let nacionalidade1 = prompt("Qual é o pais de origem da pessoa 1?")
 
-let nome2 = prompt("Digite o nome da pessoa 2")
-let sobrenome2 = prompt("Digite o sobrenome da pessoa 2")
-let idade2 = Number(prompt("Digite a idade da pessoa 2"))
-let nacionalidade2 = prompt("Digite o pais de origem da pessoa2")
+let nome2 = prompt("Qual é o nome da pessoa 2?")
+let sobrenome2 = prompt("Qual é o sobrenome da pessoa 2?")
+let idade2 = Number(prompt("Qual é a idade da pessoa 2?"))
+let nacionalidade2 = prompt("Qual é o pais de origem da pessoa2?")
 
 
 let dadosPessoa1 = { 
@@ -36,5 +36,3 @@ if(dadosPessoa1.nacionalidade1===dadosPessoa2.nacionalidade2){
 }else{
     console.log(`Eles são de diferentes paises, ${dadosPessoa1.nome1} é do pais ${dadosPessoa1.nacionalidade1} e ${dadosPessoa2.nome2} é do pais ${dadosPessoa2.nacionalidade2}  `)
 }
-
-console.table(dados)
